@@ -1,0 +1,224 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: "Averia Serif Libre", cursive;
+  color: black;
+  font-size: 7vw;
+}
+
+h2 {
+  font-family: "Averia Serif Libre", cursive;
+  color: lightblue;
+  font-size: 2vw;
+}
+
+h3 {
+  font-family: "Averia Serif Libre", cursive;
+  color: black;
+  font-size: 2vw;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: rgb(48, 183, 228);
+}
+
+nav {
+  background-color: rgb(138, 39, 39);
+  height: 6vw;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding-right: 7vw;
+}
+
+li {
+  position: relative;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 3vw;
+  cursor: pointer;
+  top: 0.5vw;
+}
+
+.fisk {
+  height: 11vw;
+  width: 11vw;
+  padding-top: 0.6vw;
+}
+
+.logo {
+  position: relative;
+  width: 20vw;
+  height: 20vw;
+  padding-top: 25px;
+  left: 27vw;
+  top: 4vw;
+}
+
+.logo_2 {
+  position: relative;
+  padding-left: 60vw;
+  top: -19vw;
+  left: -18vw;
+}
+
+.logo_3 {
+  position: relative;
+  padding-left: 60vw;
+  top: -25vw;
+  left: -15vw;
+}
+
+.container {
+  background-color: lightblue;
+  overflow: hidden;
+  height: 17vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4vw;
+  padding-left: 3vw;
+}
+
+.container img {
+  display: grid;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+}
+
+.video {
+  text-align: center;
+}
+
+.interview {
+  display: flex;
+  justify-content: center;
+  aspect-ratio: 16 / 9;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.link_text {
+  color: darkred;
+}
+.link_box {
+  position: relative;
+  background-color: lightblue;
+  color: darkred;
+  height: 8vw;
+  width: 15vw;
+  margin: 0 auto;
+  cursor: pointer;
+  top: 30vw;
+  padding-top: 2.5vw;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 1.5vw;
+}
+
+.collage_section_wrapper {
+  object-fit: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.billede1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+.billede2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+.billede3 {
+  grid-column: 3;
+  grid-row: 1;
+}
+.billede4 {
+  grid-column: 4;
+  grid-row: 1;
+}
+.billede5 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.billede6 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.billede7 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.billede8 {
+  grid-column: 4;
+  grid-row: 2;
+}
+
+footer {
+  background-color: rgb(138, 39, 39);
+  padding-left: 7vw;
+  padding-right: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.insta {
+  margin: 0 auto;
+  height: 6vw;
+  width: 6vw;
+  padding-top: 2vw;
+  padding-right: 7vw;
+}
+
+.footer_text {
+  grid-column: 3;
+  padding-left: 2.5vw;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+}
+
+address {
+  padding-top: 1.5vw;
+  grid-column: 1;
+  padding-left: 3vw;
+  font-size: 1.5vw;
+}
+
+address img {
+  width: 2vw;
+  height: 2vw;
+}
