@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 h1 {
   font-family: "Averia Serif Libre", cursive;
   color: black;
@@ -24,21 +25,52 @@ h4 {
 
 
 #p_billede {
+=======
+
+/* Her laver jeg det overordnet grid på de to container med billede og tekst */
+#section_one{
+>>>>>>> Stashed changes
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1vw;
-    
-    
+    grid-template-columns: 1fr 1fr;
+    margin: 10vw;
 }
-#p_billede > img:nth-child(2) {
-    grid-row: span 2;
+
+/* Her sætter jeg placering på produkt teksten og styler den */
+#p_p{
+    grid-column: 2/3;
+    margin: 4vw;
     
 }
 
+#p_p > h3:nth-child(1){
+    top: 8vw;
+position: absolute;
+}
+
+#p_p > h4:nth-child(2){
+    position: absolute;
+top: 18vw;
+}
+
+#p_p > h4:nth-child(3){
+    position: absolute;
+top: 22vw;
+
+}
+
+#p_p > h4:nth-child(4){
+    position: absolute;
+top: 30vw;
+}
+
+
+
+
+/* Her definere jeg højde og bredde værdier til billederne, men også sørger for at de cover hele containeren med object fit */
 #p_billede img {
     object-fit: cover;
     width: 100%; 
+<<<<<<< Updated upstream
     height: 100%;}
 
 
@@ -103,3 +135,20 @@ footer {
   width: 4vw;
   height: 4vw;
 }
+=======
+    height: 100%;
+}
+
+/* Her laver jeg et grid for de 3 valgte billeder */
+#p_billede {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1vw;    
+}
+
+/* Her har jeg under inspector fundet child elementet af billede 2 så den kan span over 2 kolonner og rækker */
+#p_billede > img:nth-child(2) {
+    grid-row: span 2;  
+}
+>>>>>>> Stashed changes
