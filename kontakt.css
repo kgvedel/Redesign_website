@@ -13,6 +13,7 @@ body {
 
 body p{
     color: black;
+    background-color: aliceblue;
 }
 .container {
   position: relative;
