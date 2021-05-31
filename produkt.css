@@ -1,0 +1,163 @@
+
+/*Styling af alle overskrifter*/
+h1 {
+  font-family: "Averia Serif Libre", cursive;
+  color: black;
+  font-size: 7vw;
+}
+
+h2 {
+  font-family: "Averia Serif Libre", cursive;
+  color: rgb(101, 181, 207);
+  font-size: 2vw;
+}
+
+h3 {
+  font-family: "Averia Serif Libre", cursive;
+  color: black;
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-family: "Averia Serif Libre", cursive;
+  color: white;
+  font-size: 1rem;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+
+
+/* Her laver jeg det overordnet grid på de to container med billede og tekst */
+#section_one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10vw;
+  
+}
+
+/* Her laver jeg et grid for de 3 valgte billeder */
+#p_billede {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1vw;
+}
+
+/* Her har jeg under inspector fundet child elementet af billede 2 så den kan span over 2 kolonner og rækker */
+#p_billede > img:nth-child(2) {
+  grid-row: span 2;
+}
+
+
+/* Her sætter jeg placering på produkt teksten og styler den */
+#p_p{
+    grid-column: 2/3;
+    margin: 4vw;
+    
+}
+/* Her går jeg ind og ændre de forskellige childelementer med overskrifterne */
+#p_p > h3:nth-child(1){
+  color:rgb(101, 181, 207);
+  font-size: 2rem;
+}#p_p > h3:nth-child(3){ 
+  font-size: 1rem;
+}
+#p_p > h3:nth-child(4){ 
+  font-size: 1rem;
+}
+
+/* Her definerer jeg højde og bredde værdier til billederne, men også sørger for at de cover hele containeren med object fit */
+#p_billede img {
+    object-fit: cover;
+    width: 100%; 
+    height: 100%;}
+
+
+/*Kontakt os knappen*/
+    #kontakt_os_knap {
+      background-color: rgb(138, 39, 39);
+      border: none;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      display: inline-block;
+      font-size: 1.5;
+      margin: 0 auto;
+      cursor: pointer;
+      padding: 1vw 1vw;
+    }
+
+
+#kontakt_os_knap :hover{
+  color: rgb(101, 181, 207);
+}
+
+
+
+
+
+  /* Design af footer */
+    footer {
+  background-color: rgb(138, 39, 39);
+  padding-left: 7vw;
+  padding-right: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 2vw;
+  margin: 0 auto;
+  padding-left: 16vw;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+
+footer {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+  .first_section {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .fourth_section {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .second_section {
+    position: relative;
+    padding-left: 3vw;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .third_section {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+}
+
+.footer_logo {
+  position: relative;
+  width: 6vw;
+}
+
+.second_section {
+  position: relative;
+  left: -3vw;
+}
+
+.first_Section {
+  position: relative;
+  padding-left: 12vw;
+}
+
+.insta {
+  width: 4vw;
+  height: 4vw;
+}
