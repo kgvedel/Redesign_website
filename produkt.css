@@ -1,32 +1,4 @@
 
-/*Styling af alle overskrifter*/
-h1 {
-  font-family: "Averia Serif Libre", cursive;
-  color: black;
-  font-size: 7vw;
-}
-
-h2 {
-  font-family: "Averia Serif Libre", cursive;
-  color: rgb(101, 181, 207);
-  font-size: 2vw;
-}
-
-h3 {
-  font-family: "Averia Serif Libre", cursive;
-  color: black;
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-family: "Averia Serif Libre", cursive;
-  color: white;
-  font-size: 1rem;
-}
-p {
-  font-family: "Poppins", sans-serif;
-  color: white;
-}
 
 /*Her styler jeg min hr*/
 
