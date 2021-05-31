@@ -4,11 +4,12 @@ html {
 
 body {
   margin: 0 auto;
+  background-color: #fcfcf5;
 }
 
 img {
   display: block;
-  width: 99%;
+  width: 100%;
   height: auto;
 }
 
