@@ -28,7 +28,13 @@ p {
   color: white;
 }
 
+/*Her styler jeg min hr*/
 
+hr{
+  max-width: 80vw;
+  color: rgb(138, 39, 39);
+  margin-top: 10vw;
+}
 
 /* Her laver jeg det overordnet grid på de to container med billede og tekst */
 #section_one {
@@ -36,19 +42,19 @@ p {
   grid-template-columns: 1fr 1fr;
   margin: 10vw;
   
+  
 }
 
 /* Her laver jeg et grid for de 3 valgte billeder */
 #p_billede {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 4fr;
   gap: 1vw;
 }
 
 /* Her har jeg under inspector fundet child elementet af billede 2 så den kan span over 2 kolonner og rækker */
 #p_billede > img:nth-child(2) {
-  grid-row: span 2;
+  grid-row: span 4;
 }
 
 
