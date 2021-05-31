@@ -1,3 +1,5 @@
+
+/*Styling af alle overskrifter*/
 h1 {
   font-family: "Averia Serif Libre", cursive;
   color: black;
@@ -67,6 +69,8 @@ top: 30vw;
     height: 100%;}
 
 
+
+  /* Design af footer */
     footer {
   background-color: rgb(138, 39, 39);
   padding-left: 7vw;
@@ -80,8 +84,9 @@ top: 30vw;
 }
 
 @media (max-width: 600px) {
+
 footer {
-  grid-template-columns: 1fr 1fr;'
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
