@@ -13,7 +13,6 @@ body {
 .tekst p{
     color: black;
     line-height: 2.5rem;
-    
 }
 
 h3{
@@ -22,15 +21,19 @@ h3{
 }
 
 .container h3 {
+  max-width: 1000px;
   text-align: left;
 }
 
 .container_2 p {
+  max-width: 1000px;
   color: black;
   text-align: center;
 }
 
+
 .container_2 img{
+  max-width: 1000px;
   position: relative;
   left: 48vw;
 }
@@ -64,7 +67,7 @@ h3{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #fff;
+  background-color: ##FCFCF5;
 }
 
 .left {
@@ -98,6 +101,6 @@ h2 {
 }
 
 .field:focus{
-background-color: #fff;
+background-color: ##FCFCF5;
 border: 2px solid rgba(30, 85, 250, 0,47);
 }
