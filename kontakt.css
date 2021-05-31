@@ -62,7 +62,7 @@ h3{
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: ##FCFCF5;
+  background-color: #FCFCF5;
 }
 
 .left {
@@ -96,6 +96,6 @@ h2 {
 }
 
 .field:focus{
-background-color: ##FCFCF5;
+background-color: #FCFCF5;
 border: 2px solid rgba(30, 85, 250, 0,47);
 }
