@@ -21,6 +21,10 @@ p{
   font-family: "Poppins", sans-serif;
 }
 
+
+
+
+
 .galleri_linje_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
