@@ -31,7 +31,7 @@ p {
 /*Her styler jeg min hr*/
 
 hr{
-  max-width: 80vw;
+  max-width: 79vw;
   color: rgb(138, 39, 39);
   margin-top: 10vw;
 }
@@ -40,9 +40,7 @@ hr{
 #section_one {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 10vw;
-  
-  
+  margin: 5vw;  
 }
 
 /* Her laver jeg et grid for de 3 valgte billeder */
@@ -66,8 +64,10 @@ hr{
 }
 /* Her går jeg ind og ændre de forskellige childelementer med overskrifterne */
 #p_p > h3:nth-child(1){
-  color:rgb(101, 181, 207);
+  position: relative;
+  color:black;
   font-size: 2rem;
+  top: -7vw;
 }#p_p > h3:nth-child(3){ 
   font-size: 1rem;
 }
