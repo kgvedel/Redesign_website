@@ -1,3 +1,5 @@
+
+/*Styling af alle overskrifter*/
 h1 {
   font-family: "Averia Serif Libre", cursive;
   color: black;
@@ -25,23 +27,50 @@ h4 {
 
 #p_billede {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 1vw;
-    
-    
+    grid-template-columns: 1fr 1fr;
+    margin: 10vw;
 }
-#p_billede > img:nth-child(2) {
-    grid-row: span 2;
+
+/* Her sætter jeg placering på produkt teksten og styler den */
+#p_p{
+    grid-column: 2/3;
+    margin: 4vw;
     
 }
 
+#p_p > h3:nth-child(1){
+    top: 8vw;
+position: absolute;
+}
+
+#p_p > h4:nth-child(2){
+    position: absolute;
+top: 18vw;
+}
+
+#p_p > h4:nth-child(3){
+    position: absolute;
+top: 22vw;
+
+}
+
+#p_p > h4:nth-child(4){
+    position: absolute;
+top: 30vw;
+}
+
+
+
+
+/* Her definere jeg højde og bredde værdier til billederne, men også sørger for at de cover hele containeren med object fit */
 #p_billede img {
     object-fit: cover;
     width: 100%; 
     height: 100%;}
 
 
+
+  /* Design af footer */
     footer {
   background-color: rgb(138, 39, 39);
   padding-left: 7vw;
@@ -55,8 +84,9 @@ h4 {
 }
 
 @media (max-width: 600px) {
+
 footer {
-  grid-template-columns: 1fr 1fr;'
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
 
