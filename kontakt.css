@@ -25,6 +25,16 @@ h3{
   text-align: left;
 }
 
+.container_2 p {
+  color: black;
+  text-align: center;
+}
+
+.container_2 img{
+  position: relative;
+  left: 48vw;
+}
+
 .tekst{
   max-width: 1000px;
   margin: 0 auto;
