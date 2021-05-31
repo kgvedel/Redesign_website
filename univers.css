@@ -9,10 +9,10 @@ h1 {
   font-size: 7vw;
 }
 
-h2 {
+h2, univers {
   font-family: "Averia Serif Libre", cursive;
-  color: rgb(101, 181, 207);
-  font-size: 2vw;
+  color:black;
+
 }
 
 p{
