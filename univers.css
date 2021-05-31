@@ -9,10 +9,14 @@ h1 {
   font-size: 7vw;
 }
 
-h2 {
+h2, univers {
   font-family: "Averia Serif Libre", cursive;
-  color: rgb(101, 181, 207);
-  font-size: 2vw;
+  color:black;
+
+}
+
+p{
+  color: black;
 }
 
 .galleri_linje_1 {
@@ -62,7 +66,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-=======
+
 h3 {
   font-family: "Averia Serif Libre", cursive;
   color: black;
