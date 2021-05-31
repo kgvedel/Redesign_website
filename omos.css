@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+}
+
+#pics_om {
+  display: grid;
+}
+.tekst_om p {
+  color: black;
+}
