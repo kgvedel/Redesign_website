@@ -3,6 +3,8 @@ img {
   width: 100%;
   height: auto;
 }
+
+
 h1 {
   font-family: "Averia Serif Libre", cursive;
   color: black;
@@ -12,11 +14,11 @@ h1 {
 h2, univers {
   font-family: "Averia Serif Libre", cursive;
   color:black;
-
 }
 
 p{
   color: black;
+  font-family: "Poppins", sans-serif;
 }
 
 
@@ -69,6 +71,10 @@ p{
 .tekst_linje_1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+h2 {
+  text-align: center;
 }
 
 h3 {
@@ -143,5 +149,14 @@ footer {
 .insta {
   width: 4vw;
   height: 4vw;
+}
+
+footer p {
+  color: white;
+}
+
+.galleri_linje_1, .galleri_linje_2, .galleri_linje_3, .galleri_linje_4, .galleri_linje_5, .galleri_linje_6 {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
