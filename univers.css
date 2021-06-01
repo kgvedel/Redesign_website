@@ -24,7 +24,7 @@ h3, univers {
   font-family: "Averia Serif Libre", cursive;
   color:black;
   text-align: center;
-  
+
 }
 
 p{
@@ -40,7 +40,7 @@ p{
   gap:50px
 }
 
-@media (min-width: 600px) {
+@media (min-width: 750px) {
   #indhold  {
     grid-template-columns: 1fr 1fr;
   }
