@@ -1,58 +1,67 @@
+
+/*MOBILE*/
+
 /*Her styler jeg min hr*/
 
 hr{
   max-width: 79vw;
   color: rgb(138, 39, 39);
-  margin-top: 10vw;
+  margin-top: 0.5rem;
+}
+  /*Reference til https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp?fbclid=IwAR3NmFxIdFjP17gwK9dVmiEaSiN0hgkKdJhtGlJAEawhdIsuwewt_TRbpRc*/
+#section_one{
+  padding: 2rem;
 }
 
-/* Her laver jeg det overordnet grid på de to container med billede og tekst */
-#section_one {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 5vw;  
-}
-
-/* Her laver jeg et grid for de 3 valgte billeder */
-#p_billede {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+  .column {
+  display: inline-flex;
+  width: 25%;
   gap: 1vw;
+  padding-left: 1rem;
+  
+  
+}
+.column img {
+  opacity: 0.8;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
 }
 
-/* Her har jeg under inspector fundet child elementet af billede 2 så den kan span over 2 kolonner og rækker */
-#p_billede > img:nth-child(2) {
-  grid-row: span 4;
-}
-
-
-/* Her sætter jeg placering på produkt teksten og styler den */
-#p_p{
-    grid-column: 2/3;
-    margin: 4vw;
-    
-}
-/* Her går jeg ind og ændre de forskellige childelementer med overskrifterne */
-#p_p > h3:nth-child(1){
+.container{
   position: relative;
-  color:black;
-  font-size: 2rem;
-  top: -7vw;
-}#p_p > h3:nth-child(3){ 
-  font-size: 1rem;
-}
-#p_p > h3:nth-child(4){ 
-  font-size: 1rem;
+  display: grid;
+  margin-bottom: 1rem;
 }
 
-/* Her definerer jeg højde og bredde værdier til billederne, men også sørger for at de cover hele containeren med object fit */
-#p_billede img {
-    object-fit: cover;
-    width: 100%; 
-    height: 100%;}
+.container >*{
+  grid-area: 1/1;
+}
 
+#expandedImg {
+  max-width: 100%;
+  align-self: center;
 
-/*Kontakt os knappen*/
+}
+.column img:hover{
+  opacity: 1;
+}
+
+#imgtext{
+  place-self:end end;
+  color: black;
+}
+@media (max-width:600px){
+#p_p > h3:nth-child(1){
+  display: none;
+}}
+
+.overskrift_mobile{
+  text-align: center;
+}
+  /*Reference slut*/
+
+/*Kontakt os knappen */
     #kontakt_os_knap {
       background-color: rgb(138, 39, 39);
       border: none;
@@ -62,7 +71,9 @@ hr{
       font-size: 1.5;
       margin: 0 auto;
       cursor: pointer;
-      padding: 1vw 1vw;
+      padding: 1rem 1rem;
+      margin-left: 5rem;
+      margin-bottom: 2rem;
     }
 
 
@@ -70,6 +81,81 @@ hr{
   color: rgb(101, 181, 207);
 }
 
+/*Child-elementer så jeg kan gå ind og redigere font-size på mine andre overskrifter */
+#p_p > h3:nth-child(3){
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+#p_p > h3:nth-child(4){
+  font-size: 1rem;
+  text-align: center;
+}
+#p_p > h3:nth-child(5){
+  text-align: center;
+}
 
 
+/*DESKTOP*/
+@media (min-width:600px){
+/* Her laver jeg det overordnet grid på de to container med billede og tekst */
+#section_one {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5vw;  
+}
+.overskrift_mobile{
+  display: none;
+}
 
+.column {
+  display: inline-flex;
+  width: 17%;
+  padding-left: 4vw;
+}
+
+#expandedImg {
+  max-width: 100%;
+  align-self: center;
+}
+
+#p_p > h3:nth-child(1) {
+  font-size: 3vw;
+margin-top: -0.5vw;
+margin-left: 1vw;
+
+}
+#p_p > h3:nth-child(3){
+  text-align: left;
+margin-left: 1vw;
+
+}
+#p_p > h3:nth-child(4){
+  text-align: left;
+margin-left: 1vw;
+
+}
+
+#p_p > h3:nth-child(5){
+  text-align: left;
+margin-left: 1vw;
+
+}
+
+#kontakt_os_knap {
+  background-color: rgb(138, 39, 39);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: inline-block;
+  font-size: 1.5;
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 1rem 1rem;
+  margin-left: 1vw;
+  margin-bottom: 2rem;
+}
+
+
+}
