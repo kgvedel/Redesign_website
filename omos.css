@@ -46,7 +46,16 @@ h3 {
 }
 .insta {
   display: flex;
-  width: 5vw;
-  height: 5vw;
+  width: 7vw;
+  height: 7vw;
   margin: 0 auto;
+}
+
+@media (min-width: 1000px) {
+  .insta {
+    display: flex;
+    width: 5vw;
+    height: 5vw;
+    margin: 0 auto;
+  }
 }
