@@ -17,6 +17,7 @@ img {
   height: 15vw;
   padding-top: 27px;
   margin: 0 auto;
+  padding-right: 4vw;
 }
 
 .logo_2 {
@@ -37,6 +38,15 @@ img {
   font-family: "Averia Serif Libre", cursive;
   color: rgb(101, 181, 207);
   font-size: 2vw;
+}
+
+@media (max-width: 600px) {
+  .logo_1 {
+    position: relative;
+    width: 20vw;
+    height: 15vw;
+    padding-top: 27px;
+  }
 }
 
 .video {
