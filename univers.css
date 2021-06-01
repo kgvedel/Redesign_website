@@ -1,7 +1,13 @@
-img {
+body{
+
+}
+
+#indhold img {
   display: block;
   width: 100%;
   height: auto;
+  padding-top: 50px;
+  
 }
 
 
@@ -19,59 +25,31 @@ h2, univers {
 p{
   color: black;
   font-family: "Poppins", sans-serif;
+  
+}
+
+#indhold{
+  max-width: 1200px;
+  margin: 0 auto;
+  display:grid;
+  gap:50px
+}
+
+@media (min-width: 600px) {
+  #indhold  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  #indhold  {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 
 
 
-
-.galleri_linje_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_6 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-
-.tekst_linje_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
 
 h2 {
   text-align: center;
@@ -155,8 +133,4 @@ footer p {
   color: white;
 }
 
-.galleri_linje_1, .galleri_linje_2, .galleri_linje_3, .galleri_linje_4, .galleri_linje_5, .galleri_linje_6 {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
