@@ -1,78 +1,102 @@
+/*////////////// INDHOLD //////////////
 
+1. GLOBALE ELEMENTER
+2. TYPOGRAPHY
+3. LAYOUT
+4. CONTACT BOX
+*/
+
+/*////////////// GLOBALE ELEMENTER //////////////*/
 
 body {
   width: 100%;
   height: 100vh;
 }
 
-.tekst p{
-    color: black;
-    line-height: 2.5rem;
+.wrapper {
+  max-width: 500px;
+  margin: 0 auto;
 }
+/*////////////// GLOBALE ELEMENTER END //////////////*/
+/*////////////// TYPOGRAPHY //////////////*/
 
-h3{
-  text-align: center;
-
-}
-
-.container h3 {
+.tekst {
   max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tekst p {
+  color: black;
+  line-height: 2.5rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+/*////////////// TYPOGRAPHY END //////////////*/
+
+/*////////////// LAYOUT //////////////*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.right {
+  max-width: 500px;
+}
+
+.right h3 {
   text-align: left;
 }
 
-.container_2 p {
-  max-width: 1000px;
-  color: black;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.container_2 img{
-  max-width: 1000px;
-  position: relative;
-  left: 47.3vw;
-}
-
-.tekst{
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.container {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+.contact {
   padding: 20px 100px;
 }
 
-.container:after {
+.contact:after {
   content: "";
   background: center;
   background-size: cover;
   z-index: -1;
 }
 
+.instafunktion p {
+  color: black;
+  text-align: center;
+<<<<<<< HEAD
+  background-color: #FCFCF5;
+=======
+>>>>>>> df2778740a66452e0d2f422f8045075e0ebeabe4
+}
+
+.instafunktion img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*
+  position: relative;
+  left: 26vw;
+  */
+}
+
+.googlemap {
+  max-width: 100%;
+  margin: 0 auto;
+  grid-row: 2;
+}
+
+/*////////////// LAYOUT END //////////////*/
+
+/*////////////// CONTACT BOX //////////////*/
+
 .contact-box {
   max-width: 850px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #FCFCF5;
-}
-
-.left {
-  height: 100%;
-  background: center;
-  background-size: cover;
-}
-
-.right {
-  padding: 25px 40px;
+  background-color: #fcfcf5;
 }
 
 h2 {
@@ -82,20 +106,55 @@ h2 {
 }
 
 .field {
-  width: 100%;
+  width: 500px;
   padding: 0.5rem 1rem;
-  outline: none;
-  border: solid rgb(138, 39, 39);
+  border: outset rgb(138, 39, 39);
+  background-color: #fcfcf5;
   font-size: 1.1rem;
   margin-bottom: 22px;
-  transition: 3s;
+  outline: none;
+  color: rgb(48, 183, 228);
 }
 
-.field:hover{
-    background-color: rgb(0, 0, 0, 0.1));
+.field:hover {
+  background-color: rgb(0, 0, 0, 0.2);
 }
 
+.field:focus {
+  background-color: #fcfcf5;
+  border: 2px solid rgba(30, 85, 250, 0, 47);
+}
+
+<<<<<<< HEAD
 .field:focus{
 background-color: #FCFCF5;
 border: 2px solid rgba(30, 85, 250, 0,47);
 }
+=======
+/*////////////// CONTACT BOX END //////////////*/
+/*////////////// BUTTON //////////////*/
+
+.btn {
+  width: 107.5%;
+  height: 3rem;
+  background-color: rgb(138, 39, 39);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(48, 183, 228);
+}
+
+/*////////////// BUTTON END //////////////*/
+/*////////////// MEDIA TIME //////////////*/
+@media screen and (min-width: 460px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/*////////////// MEDIA TIME END //////////////*/
+>>>>>>> df2778740a66452e0d2f422f8045075e0ebeabe4
