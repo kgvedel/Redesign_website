@@ -39,15 +39,16 @@ h3 {
 /*////////////// LAYOUT //////////////*/
 
 .container {
-  display: grid;
+  /*display: grid;
   grid-template-columns: 1fr;
+  */
 }
 
-.right {
+.contact {
   max-width: 500px;
 }
 
-.right h3 {
+.contact h3 {
   text-align: left;
 }
 
@@ -140,10 +141,10 @@ h2 {
 
 /*////////////// BUTTON END //////////////*/
 /*////////////// MEDIA TIME //////////////*/
-@media screen and (min-width: 460px) {
+/*@media screen and (min-width: 460px) {
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
-/*////////////// MEDIA TIME END //////////////*/
+/*/ ///////////// MEDIA TIME END //////////////*/
