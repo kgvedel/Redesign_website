@@ -38,22 +38,16 @@ h3 {
 
 /*////////////// LAYOUT //////////////*/
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.right {
+.contact {
   max-width: 500px;
+  padding-left: 7px;
 }
 
-.right h3 {
+.contact h3 {
   text-align: left;
 }
 
-.contact {
-  padding: 20px 100px;
-}
+
 
 .contact:after {
   content: "";
@@ -65,10 +59,7 @@ h3 {
 .instafunktion p {
   color: black;
   text-align: center;
-<<<<<<< HEAD
   background-color: #FCFCF5;
-=======
->>>>>>> df2778740a66452e0d2f422f8045075e0ebeabe4
 }
 
 .instafunktion img {
@@ -84,7 +75,6 @@ h3 {
 .googlemap {
   max-width: 100%;
   margin: 0 auto;
-  grid-row: 2;
 }
 
 /*////////////// LAYOUT END //////////////*/
@@ -92,7 +82,7 @@ h3 {
 /*////////////// CONTACT BOX //////////////*/
 
 .contact-box {
-  max-width: 850px;
+  max-width: 550px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -106,7 +96,7 @@ h2 {
 }
 
 .field {
-  width: 500px;
+  width: 320px;
   padding: 0.5rem 1rem;
   border: outset rgb(138, 39, 39);
   background-color: #fcfcf5;
@@ -150,11 +140,23 @@ border: 2px solid rgba(30, 85, 250, 0,47);
 
 /*////////////// BUTTON END //////////////*/
 /*////////////// MEDIA TIME //////////////*/
-@media screen and (min-width: 460px) {
-  .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
+@media (max-width: 460px){
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
 }
+
+
+.googlemap {
+  grid-row: 2;
+}
+
+
+}
+
+<<<<<<< HEAD
+/*/ ///////////// MEDIA TIME END //////////////*/
+=======
 /*////////////// MEDIA TIME END //////////////*/
->>>>>>> df2778740a66452e0d2f422f8045075e0ebeabe4
+

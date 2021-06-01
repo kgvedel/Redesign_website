@@ -13,19 +13,21 @@ h3 {
   margin: 0 auto;
   text-align: center;
 }
-
 #section_three {
-  display: flex;
-  flex-direction: row;
-}
-#section_three img {
-  width: 10vw;
-  height: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
-.pics_om {
-  display: flex;
+.image1 {
+  grid-column: 1;
 }
+
+.image2 {
+  grid-column: 2;
+}
+
 .tekst_om p {
   color: black;
   line-height: 2.5rem;
