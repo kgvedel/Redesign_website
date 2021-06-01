@@ -1,7 +1,18 @@
-img {
+
+main{
+  padding: 4vw;
+}
+#indhold img {
   display: block;
   width: 100%;
   height: auto;
+  padding-top: 50px;
+  
+
+}
+
+hr{
+  max-width: 1200px;
 }
 
 
@@ -11,76 +22,47 @@ h1 {
   font-size: 7vw;
 }
 
-h2, univers {
+h3, univers {
   font-family: "Averia Serif Libre", cursive;
   color:black;
+  text-align: center;
+
 }
 
 p{
   color: black;
   font-family: "Poppins", sans-serif;
+  
 }
 
-
-
-
-
-.galleri_linje_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_3 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_4 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_5 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-}
-.galleri_linje_6 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
+#indhold{
+  max-width: 1200px;
+  margin: 0 auto;
+  display:grid;
+  gap:50px
 }
 
-.tekst_linje_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+@media (min-width: 750px) {
+  #indhold  {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  #indhold  {
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+  main{
+    padding: 0vw;
+  }
 }
 
 h2 {
   text-align: center;
 }
 
-h3 {
-  font-family: "Averia Serif Libre", cursive;
-  color: black;
-  font-size: 1.5rem;
+
 }
 
 h4 {
@@ -155,8 +137,4 @@ footer p {
   color: white;
 }
 
-.galleri_linje_1, .galleri_linje_2, .galleri_linje_3, .galleri_linje_4, .galleri_linje_5, .galleri_linje_6 {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
