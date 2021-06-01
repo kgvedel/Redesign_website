@@ -16,7 +16,7 @@ img {
   position: relative;
   width: 20vw;
   height: 15vw;
-  padding-top: 27px;
+  top: -5vw;
   margin: 0 auto;
   padding-right: 4vw;
 }
@@ -24,7 +24,7 @@ img {
 .logo_2 {
   position: relative;
   text-align: center;
-  padding-top: 5vw;
+
   top: -22vw;
   margin: 0 auto;
   font-family: "Averia Serif Libre", cursive;
@@ -41,12 +41,12 @@ img {
   font-size: 2vw;
 }
 
-@media (max-width: 600px) {
-  .logo_1 {
+@media (min-width: 600px) {
+  .logo {
     position: relative;
-    width: 20vw;
-    height: 15vw;
-    padding-top: 27px;
+    top: 6vw;
+    padding-bottom: 7vw;
+    left: 1.5vw;
   }
 }
 
@@ -58,9 +58,8 @@ img {
   display: flex;
   justify-content: center;
   aspect-ratio: 16 / 9;
-  padding-left: 15vw;
-  padding-right: 15vw;
-  padding-bottom: -15vw;
+  padding-left: 14vw;
+  padding-right: 14vw;
 }
 
 .link_text {
@@ -91,7 +90,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  max-width: 1050px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
