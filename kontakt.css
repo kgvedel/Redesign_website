@@ -57,13 +57,12 @@ h3 {
 .instafunktion p {
   color: black;
   text-align: center;
-  background-color: #fcfcf5;
 }
-
-.instafunktion img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.insta {
+  display: flex;
+  width: 5vw;
+  height: 5vw;
+  margin: 0 auto;
 }
 
 .googlemap {
