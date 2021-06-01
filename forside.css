@@ -110,6 +110,7 @@ img {
 }
 
 .interview {
+  object-fit: cover;
   display: flex;
   aspect-ratio: 16 / 9;
   max-width: 1200px;
