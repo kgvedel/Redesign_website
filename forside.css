@@ -12,6 +12,12 @@ img {
   height: auto;
 }
 
+.logo {
+  position: relative;
+  padding: 5vw;
+  top: 1.5vw;
+}
+
 .logo_1 {
   position: relative;
   width: 20vw;
@@ -44,45 +50,9 @@ img {
 @media (min-width: 600px) {
   .logo {
     position: relative;
-    top: 6vw;
-    padding-bottom: 7vw;
     left: 1.5vw;
+    top: 3vw;
   }
-}
-
-.video {
-  text-align: center;
-}
-
-.interview {
-  display: flex;
-  justify-content: center;
-  aspect-ratio: 16 / 9;
-  padding-left: 14vw;
-  padding-right: 14vw;
-}
-
-.link_text {
-  color: darkred;
-  top: 3vw;
-}
-
-.link_text:hover {
-  color: white;
-}
-
-.link_box {
-  background-color: lightblue;
-  color: darkred;
-  margin: 0 auto;
-  cursor: pointer;
-  text-align: center;
-  padding-top: 1vw;
-  grid-area: 1/1/-1/-1;
-  z-index: 1;
-  max-width: 150px;
-  place-self: center;
-  padding-bottom: 1vw;
 }
 
 .collage_section_wrapper {
@@ -90,7 +60,7 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 3vw;
 }
@@ -133,4 +103,45 @@ img {
 .billede8 {
   grid-column: 4;
   grid-row: 2;
+}
+
+.video {
+  text-align: center;
+}
+
+.interview {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 4vw;
+}
+
+.link_text {
+  color: darkred;
+  top: 3vw;
+  font-size: 1.5rem;
+}
+
+.link_text:hover {
+  color: white;
+}
+
+.link_box {
+  background-color: lightblue;
+  color: darkred;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  padding: 1.5vw;
+  grid-area: 1/1/-1/-1;
+  z-index: 1;
+  max-width: 200px;
+  place-self: center;
+}
+
+@media (max-width: 600px) {
+  .link_text {
+    font-size: 1rem;
+  }
 }
