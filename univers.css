@@ -1,6 +1,4 @@
-body{
 
-}
 
 #indhold img {
   display: block;
@@ -8,6 +6,11 @@ body{
   height: auto;
   padding-top: 50px;
   
+
+}
+
+hr{
+  max-width: 1200px;
 }
 
 
@@ -17,9 +20,11 @@ h1 {
   font-size: 7vw;
 }
 
-h2, univers {
+h3, univers {
   font-family: "Averia Serif Libre", cursive;
   color:black;
+  text-align: center;
+  
 }
 
 p{
@@ -51,10 +56,7 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  font-family: "Averia Serif Libre", cursive;
-  color: black;
-  font-size: 1.5rem;
+
 }
 
 h4 {
