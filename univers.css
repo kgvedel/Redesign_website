@@ -1,6 +1,7 @@
 
 main{
-  padding: 4vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 #indhold img {
   display: block;
