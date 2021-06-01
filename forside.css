@@ -92,6 +92,7 @@ img {
   grid-template-rows: 1fr 1fr;
   max-width: 1100px;
   margin: 0 auto;
+  padding: 3vw;
 }
 
 .billede1 {
