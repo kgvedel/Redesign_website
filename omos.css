@@ -3,7 +3,6 @@ h3 {
 }
 
 #section_one {
-  max-width: 1000px;
   margin: 0 auto;
   text-align: center;
 }
@@ -14,9 +13,9 @@ h3 {
   text-align: center;
 }
 #section_three {
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 1000px; */
   margin: 0 auto;
   gap: 0.3rem;
 }
@@ -57,5 +56,27 @@ h3 {
     width: 5vw;
     height: 5vw;
     margin: 0 auto;
+  }
+
+  #section_three {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 0.3rem;
+  }
+
+  .image1 {
+    grid-column: 1;
+    border: 0.3rem rgb(138, 39, 39);
+    border-style: solid;
+    padding: 0.3rem;
+  }
+
+  .image2 {
+    grid-column: 2;
+    border: 0.3rem rgb(138, 39, 39);
+    border-style: solid;
+    padding: 0.3rem;
   }
 }
