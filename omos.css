@@ -15,7 +15,7 @@ h3 {
 
 #section_two {
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
 }
 
 hr {
@@ -80,14 +80,16 @@ hr {
   .tekst_om {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 0fr;
   }
   .tekst1 {
     grid-column: 1 / 2;
+    padding-right: 3rem;
   }
 
   .tekst2 {
     grid-column: 2 / 3;
+    padding-left: 3rem;
   }
   .tekst3 {
     grid-column: span 2;
@@ -104,7 +106,7 @@ hr {
     width: 5vw;
     height: 5vw;
     margin: 0 auto;
-    padding-top: 2vw;
+    padding-top: 5vw;
   }
 
   #section_three {
@@ -127,5 +129,10 @@ hr {
     border-style: solid;
     padding: 0.3rem;
     margin-top: 0vw;
+  }
+
+  #folg_os {
+    padding-top: 1vw;
+    padding-bottom: 3vw;
   }
 }
