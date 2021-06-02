@@ -121,6 +121,7 @@ hr {
     border: 0.3rem rgb(138, 39, 39);
     border-style: solid;
     padding: 0.3rem;
+    margin-right: 0.5rem;
   }
 
   .image2 {
@@ -129,6 +130,7 @@ hr {
     border-style: solid;
     padding: 0.3rem;
     margin-top: 0vw;
+    margin-left: 0.5rem;
   }
 
   #folg_os {
