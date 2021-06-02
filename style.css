@@ -170,14 +170,18 @@ footer {
   footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
   }
 
   ul {
+    position: relative;
     font-size: 0.5rem;
     gap: 20px;
+    padding: 1vw;
+    font-size: 0.8rem;
   }
-
+  li {
+  }
   .fisk {
     padding-right: 3vw;
   }
