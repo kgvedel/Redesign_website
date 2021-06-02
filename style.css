@@ -173,8 +173,13 @@ footer {
     font-size: 0.5rem;
   }
 
+  ul {
+    font-size: 0.5rem;
+    gap: 20px;
+  }
+
   .fisk {
-    display: none;
+    padding-right: 3vw;
   }
 
   .first_section {
