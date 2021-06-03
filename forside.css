@@ -115,7 +115,7 @@ img {
 
 video {
   width: 100%;
-  aspect-ratio: 16 / 9;
+  height: 56.25vw;
 }
 
 .interview {
