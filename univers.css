@@ -64,10 +64,9 @@ p {
 }
 
 #indhold {
-  max-width: 1200px;
-  margin: 0 auto;
   display: grid;
   gap: 50px;
+  margin: 0 auto;
 }
 
 @media (min-width: 750px) {
@@ -78,10 +77,8 @@ p {
 
 @media (min-width: 1000px) {
   #indhold {
+    max-width: 1200px;
     grid-template-columns: 1fr 1fr 1fr;
-  }
-  main {
-    padding: 0vw;
   }
 }
 
