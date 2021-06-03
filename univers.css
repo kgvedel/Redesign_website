@@ -22,7 +22,7 @@ img {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
-  transform: translateX(100%) translateY(-500%);
+  transform: translateX(120%) translateY(-600%);
 }
 
 .img_1:hover .image {
@@ -81,12 +81,20 @@ p {
   #indhold {
     grid-template-columns: 1fr 1fr;
   }
+
+  .middle {
+    transform: translateX(105%) translateY(-550%);
+  }
 }
 
 @media (min-width: 1000px) {
   #indhold {
     max-width: 1200px;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .middle {
+    transform: translateX(100%) translateY(-500%);
   }
 
   hr {
