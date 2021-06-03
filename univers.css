@@ -43,6 +43,13 @@ img {
 
 hr {
   max-width: 1200px;
+  margin-top: 10vw;
+  margin-bottom: 0vw;
+  color: rgb(138, 39, 39);
+}
+
+#indhold {
+  padding-bottom: 15vw;
 }
 
 h1 {
@@ -56,6 +63,7 @@ univers {
   font-family: "Averia Serif Libre", cursive;
   color: black;
   text-align: center;
+  padding-top: 5.5vw;
 }
 
 p {
@@ -79,6 +87,23 @@ p {
   #indhold {
     max-width: 1200px;
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  hr {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  h3,
+  univers {
+    font-family: "Averia Serif Libre", cursive;
+    color: black;
+    text-align: center;
+    padding-top: 3vw;
+  }
+
+  #indhold {
+    padding-bottom: 8vw;
   }
 }
 

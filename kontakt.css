@@ -10,7 +10,8 @@
 /*////////////// GLOBALE ELEMENTER //////////////*/
 
 main {
-  padding: 4vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
 }
 
 body {
@@ -37,6 +38,13 @@ body {
 
 h3 {
   text-align: center;
+  padding-top: 5.5vw;
+}
+
+hr {
+  margin-top: 15vw;
+  margin-bottom: 10vw;
+  color: rgb(138, 39, 39);
 }
 
 /*////////////// TYPOGRAPHY END //////////////*/
@@ -64,9 +72,10 @@ h3 {
 }
 .insta_2 {
   display: flex;
-  width: 5vw;
-  height: 5vw;
+  width: 7vw;
+  height: 7vw;
   margin: 0 auto;
+  margin-top: 10vw;
 }
 
 .googlemap {
@@ -100,7 +109,7 @@ h2 {
   border: outset rgb(138, 39, 39);
   background-color: #fcfcf5;
   font-size: 0.8rem;
-  color: rgb(48, 183, 228);
+  color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
   margin-bottom: 10px;
   outline: none;
@@ -158,6 +167,28 @@ h2 {
 @media (min-width: 1000px) {
   main {
     padding: 0vw;
+  }
+
+  hr {
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+  }
+
+  h3 {
+    padding-top: 3vw;
+  }
+
+  .insta_2 {
+    display: flex;
+    width: 5vw;
+    height: 5vw;
+    margin: 0 auto;
+    padding-top: 5vw;
+  }
+
+  .text p {
+    color: black;
+    line-height: 3.5rem;
   }
 }
 /*/ ///////////// MEDIA TIME END //////////////*/
