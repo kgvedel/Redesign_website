@@ -113,6 +113,10 @@ img {
   text-align: center;
 }
 
+video {
+  width: 100%;
+}
+
 .interview {
   object-fit: cover;
   display: flex;
