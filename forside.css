@@ -41,9 +41,9 @@ img {
 .logo_3 {
   position: relative;
   text-align: center;
-  top: 1vw;
+  top: -24vw;
   font-family: "Averia Serif Libre", cursive;
-  color: rgb(101, 181, 207);
+  color: black;
   font-size: 2vw;
 }
 
