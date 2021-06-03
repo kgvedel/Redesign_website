@@ -69,6 +69,29 @@ img {
   padding: 3vw;
 }
 
+.link_text:hover {
+  color: white;
+}
+
+.link_box {
+  background-color: lightblue;
+  color: darkred;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  padding: 1.5vw;
+  grid-area: 1/1/-1/-1;
+  z-index: 1;
+  max-width: 150px;
+  place-self: center;
+}
+
+.link_text {
+  color: darkred;
+  top: 3vw;
+  font-size: 1rem;
+}
+
 .billede1 {
   grid-column: 1;
   grid-row: 1;
@@ -122,26 +145,28 @@ img {
   padding-bottom: 6vw;
 }
 
-.link_text {
-  color: darkred;
-  top: 3vw;
-  font-size: 1.5rem;
+.univers_text {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  text-align: center;
+  max-width: 1200px;
+  padding: 2vw;
+  line-height: 2vw;
 }
 
-.link_text:hover {
-  color: white;
-}
-
-.link_box {
+.link_univers {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
   background-color: lightblue;
   color: darkred;
   margin: 0 auto;
   cursor: pointer;
   text-align: center;
-  padding: 1.5vw;
+  padding: 1vw;
   grid-area: 1/1/-1/-1;
   z-index: 1;
-  max-width: 200px;
+  max-width: 100px;
   place-self: center;
 }
 

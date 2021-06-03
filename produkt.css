@@ -12,12 +12,17 @@ hr {
   padding: 2rem;
 }
 
-.column {
-  display: inline-flex;
-  width: 25%;
-  gap: 1vw;
-  padding-left: 1rem;
+.imgtext {
+  color: white;
 }
+
+.column {
+  width: 25%;
+  padding-left: 1rem;
+  position: relative;
+  left: 6vw;
+}
+
 .column img {
   opacity: 0.8;
   cursor: pointer;
@@ -26,9 +31,12 @@ hr {
 }
 
 .container {
+  grid-column: 1;
   position: relative;
   display: grid;
   margin-bottom: 1rem;
+  position: relative;
+  left: 10vw;
 }
 
 .container > * {
@@ -36,7 +44,7 @@ hr {
 }
 
 #expandedImg {
-  max-width: 100%;
+  width: 20vw;
   align-self: center;
 }
 .column img:hover {
@@ -44,7 +52,7 @@ hr {
 }
 
 #imgtext {
-  place-self: end end;
+  place-self: initial;
   color: black;
 }
 @media (max-width: 600px) {
