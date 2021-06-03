@@ -86,6 +86,22 @@ img {
   place-self: center;
 }
 
+.univers_box {
+  position: relative;
+  left: vw;
+  background-color: lightblue;
+  color: darkred;
+  margin: 0 auto;
+  cursor: pointer;
+  text-align: center;
+  padding: 1.5vw;
+
+  grid-area: 1/1/-1/-1;
+  z-index: 1;
+  max-width: 410px;
+  place-self: center;
+}
+
 .link_text {
   color: darkred;
   top: 3vw;
@@ -151,23 +167,19 @@ img {
   color: black;
   text-align: center;
   max-width: 1200px;
-  padding: 2vw;
+  padding: 2.5vw;
   line-height: 1.5rem;
+  font-size: 1rem;
 }
 
-.link_univers {
-  font-size: 1rem;
+.interview a {
   font-family: "Poppins", sans-serif;
-  background-color: lightblue;
   color: darkred;
-  margin: 0 auto;
-  cursor: pointer;
-  text-align: center;
-  padding: 1vw;
-  grid-area: 1/1/-1/-1;
-  z-index: 1;
-  max-width: 100px;
-  place-self: center;
+  text-decoration: none;
+}
+
+.interview a:hover {
+  color: white;
 }
 
 @media (max-width: 600px) {
