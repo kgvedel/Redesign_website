@@ -95,7 +95,7 @@ img {
   cursor: pointer;
   text-align: center;
   padding: 1.5vw;
-
+  max-width: 410px;
   grid-area: 1/1/-1/-1;
   z-index: 1;
   max-width: 41 0px;
