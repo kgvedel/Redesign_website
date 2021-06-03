@@ -15,14 +15,14 @@ img {
 .logo {
   position: relative;
   padding: 5vw;
-  top: 1.5vw;
+  top: 3vw;
 }
 
 .logo_1 {
   position: relative;
   width: 20vw;
   height: 15vw;
-  top: -5vw;
+  top: -3vw;
   margin: 0 auto;
   padding-right: 3vw;
 }

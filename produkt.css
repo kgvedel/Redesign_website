@@ -1,25 +1,22 @@
-
 /*MOBILE*/
 
 /*Her styler jeg min hr*/
 
-hr{
-  max-width: 79vw;
+hr {
+  max-width: 1200px;
   color: rgb(138, 39, 39);
   margin-top: 0.5rem;
 }
-  /*Reference til https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp?fbclid=IwAR3NmFxIdFjP17gwK9dVmiEaSiN0hgkKdJhtGlJAEawhdIsuwewt_TRbpRc*/
-#section_one{
+/*Reference til https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp?fbclid=IwAR3NmFxIdFjP17gwK9dVmiEaSiN0hgkKdJhtGlJAEawhdIsuwewt_TRbpRc*/
+#section_one {
   padding: 2rem;
 }
 
-  .column {
+.column {
   display: inline-flex;
   width: 25%;
   gap: 1vw;
   padding-left: 1rem;
-  
-  
 }
 .column img {
   opacity: 0.8;
@@ -28,121 +25,40 @@ hr{
   height: 100%;
 }
 
-.container{
+.container {
   position: relative;
   display: grid;
   margin-bottom: 1rem;
 }
 
-.container >*{
+.container > * {
   grid-area: 1/1;
 }
 
 #expandedImg {
   max-width: 100%;
   align-self: center;
-
 }
-.column img:hover{
+.column img:hover {
   opacity: 1;
 }
 
-#imgtext{
-  place-self:end end;
+#imgtext {
+  place-self: end end;
   color: black;
 }
-@media (max-width:600px){
-#p_p > h3:nth-child(1){
-  display: none;
-}}
+@media (max-width: 600px) {
+  #p_p > h3:nth-child(1) {
+    display: none;
+  }
+}
 
-.overskrift_mobile{
+.overskrift_mobile {
   text-align: center;
 }
-  /*Reference slut*/
+/*Reference slut*/
 
 /*Kontakt os knappen */
-    #kontakt_os_knap {
-      background-color: rgb(138, 39, 39);
-      border: none;
-      color: rgb(255, 255, 255);
-      text-align: center;
-      display: inline-block;
-      font-size: 1.5;
-      margin: 0 auto;
-      cursor: pointer;
-      padding: 1rem 1rem;
-      margin-left: 5rem;
-      margin-bottom: 2rem;
-    }
-
-
-#kontakt_os_knap :hover{
-  color: rgb(101, 181, 207);
-}
-
-/*Child-elementer så jeg kan gå ind og redigere font-size på mine andre overskrifter */
-#p_p > h3:nth-child(3){
-  font-size: 1rem;
-  text-align: center;
-
-}
-
-#p_p > h3:nth-child(4){
-  font-size: 1rem;
-  text-align: center;
-}
-#p_p > h3:nth-child(5){
-  text-align: center;
-}
-
-
-/*DESKTOP*/
-@media (min-width:600px){
-/* Her laver jeg det overordnet grid på de to container med billede og tekst */
-#section_one {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 5vw;  
-}
-.overskrift_mobile{
-  display: none;
-}
-
-.column {
-  display: inline-flex;
-  width: 17%;
-  padding-left: 4vw;
-}
-
-#expandedImg {
-  max-width: 100%;
-  align-self: center;
-}
-
-#p_p > h3:nth-child(1) {
-  font-size: 3vw;
-margin-top: -0.5vw;
-margin-left: 1vw;
-
-}
-#p_p > h3:nth-child(3){
-  text-align: left;
-margin-left: 1vw;
-
-}
-#p_p > h3:nth-child(4){
-  text-align: left;
-margin-left: 1vw;
-
-}
-
-#p_p > h3:nth-child(5){
-  text-align: left;
-margin-left: 1vw;
-
-}
-
 #kontakt_os_knap {
   background-color: rgb(138, 39, 39);
   border: none;
@@ -153,9 +69,81 @@ margin-left: 1vw;
   margin: 0 auto;
   cursor: pointer;
   padding: 1rem 1rem;
-  margin-left: 1vw;
+  margin-left: 5rem;
   margin-bottom: 2rem;
 }
 
+#kontakt_os_knap :hover {
+  color: rgb(101, 181, 207);
+}
 
+/*Child-elementer så jeg kan gå ind og redigere font-size på mine andre overskrifter */
+#p_p > h3:nth-child(3) {
+  font-size: 1rem;
+  text-align: center;
+}
+
+#p_p > h3:nth-child(4) {
+  font-size: 1rem;
+  text-align: center;
+}
+#p_p > h3:nth-child(5) {
+  text-align: center;
+}
+
+/*DESKTOP*/
+@media (min-width: 600px) {
+  /* Her laver jeg det overordnet grid på de to container med billede og tekst */
+  #section_one {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5vw;
+  }
+  .overskrift_mobile {
+    display: none;
+  }
+
+  .column {
+    display: inline-flex;
+    width: 17%;
+    padding-left: 4vw;
+  }
+
+  #expandedImg {
+    max-width: 100%;
+    align-self: center;
+  }
+
+  #p_p > h3:nth-child(1) {
+    font-size: 3vw;
+    margin-top: -0.5vw;
+    margin-left: 1vw;
+  }
+  #p_p > h3:nth-child(3) {
+    text-align: left;
+    margin-left: 1vw;
+  }
+  #p_p > h3:nth-child(4) {
+    text-align: left;
+    margin-left: 1vw;
+  }
+
+  #p_p > h3:nth-child(5) {
+    text-align: left;
+    margin-left: 1vw;
+  }
+
+  #kontakt_os_knap {
+    background-color: rgb(138, 39, 39);
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5;
+    margin: 0 auto;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    margin-left: 1vw;
+    margin-bottom: 2rem;
+  }
 }
