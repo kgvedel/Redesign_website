@@ -112,7 +112,8 @@ hr {
   }
 
   .column {
-    display: inline-flex;
+    display: flex;
+    flex-flow: wrap;
     width: 17%;
     padding-left: 4vw;
   }
