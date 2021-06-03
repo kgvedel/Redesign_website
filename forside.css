@@ -113,18 +113,13 @@ img {
   text-align: center;
 }
 
-video {
-  width: 100%;
-  height: 56.25vw;
-}
-
 .interview {
   object-fit: cover;
   display: flex;
   aspect-ratio: 16 / 9;
   max-width: 1200px;
   margin: 0 auto;
-  padding-bottom: 4vw;
+  padding-bottom: 6vw;
 }
 
 .link_text {
@@ -155,12 +150,17 @@ video {
     font-size: 1rem;
   }
 
+  video {
+    width: 100%;
+    height: 56.25vw;
+  }
+
   .interview {
     object-fit: cover;
     display: flex;
     aspect-ratio: 16 / 9;
     max-width: 600px;
     margin: 0 auto;
-    padding-bottom: 4vw;
+    padding-bottom: 15vw;
   }
 }
