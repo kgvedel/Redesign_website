@@ -1,5 +1,4 @@
-
-main{
+main {
   padding-left: 4vw;
   padding-right: 4vw;
 }
@@ -8,14 +7,43 @@ main{
   width: 100%;
   height: auto;
   padding-top: 50px;
-  
-
 }
 
-hr{
+img {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translateX(100%) translateY(-500%);
+}
+
+.img_1:hover .image {
+  opacity: 0.3;
+}
+
+.img_1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: lightblue;
+  color: darkred;
+  font-size: 16px;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+
+hr {
   max-width: 1200px;
 }
-
 
 h1 {
   font-family: "Averia Serif Libre", cursive;
@@ -23,38 +51,36 @@ h1 {
   font-size: 7vw;
 }
 
-h3, univers {
+h3,
+univers {
   font-family: "Averia Serif Libre", cursive;
-  color:black;
+  color: black;
   text-align: center;
-
 }
 
-p{
+p {
   color: black;
   font-family: "Poppins", sans-serif;
-  
 }
 
-#indhold{
+#indhold {
   max-width: 1200px;
   margin: 0 auto;
-  display:grid;
-  gap:50px
+  display: grid;
+  gap: 50px;
 }
 
 @media (min-width: 750px) {
-  #indhold  {
+  #indhold {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 1000px) {
-  #indhold  {
+  #indhold {
     grid-template-columns: 1fr 1fr 1fr;
-
   }
-  main{
+  main {
     padding: 0vw;
   }
 }
@@ -63,79 +89,12 @@ h2 {
   text-align: center;
 }
 
-
-}
-
 h4 {
   font-family: "Averia Serif Libre", cursive;
   color: white;
   font-size: 1rem;
 }
 
-/* footer {
-  background-color: rgb(138, 39, 39);
-  padding-left: 7vw;
-  padding-right: 1vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-bottom: 2vw;
-  margin: 0 auto;
-  padding-left: 16vw;
-  font-size: 1rem;
-}
-
-@media (max-width: 600px) {
-footer {
-  grid-template-columns: 1fr 1fr;'
-  grid-template-rows: 1fr 1fr;
-}
-
-  .first_section {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
-  .fourth_section {
-    grid-column: 2;
-    grid-row: 1;
-  }
-
-  .second_section {
-    position: relative;
-    padding-left: 3vw;
-    grid-column: 1;
-    grid-row: 2;
-  }
-
-  .third_section {
-    grid-column: 2;
-    grid-row: 2;
-  }
-
-}
-
-.footer_logo {
-  position: relative;
-  width: 6vw;
-}
-
-.second_section {
-  position: relative;
-  left: -3vw;
-}
-
-.first_Section {
-  position: relative;
-  padding-left: 12vw;
-}
-
-.insta {
-  width: 4vw;
-  height: 4vw;
-}  */
-
 footer p {
   color: white;
 }
-
-
