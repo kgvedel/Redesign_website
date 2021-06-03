@@ -3,7 +3,6 @@ function myFunction(imgs) {
     let imgText = document.getElementById("imgtext");
     expandImg.src = imgs.src;
     imgText.innerHTML = imgs.alt;
-    //expandImg.parentElement.style.display = "block";
   }
 
   /*Reference til https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp?fbclid=IwAR3NmFxIdFjP17gwK9dVmiEaSiN0hgkKdJhtGlJAEawhdIsuwewt_TRbpRc*/
