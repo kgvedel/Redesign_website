@@ -14,7 +14,7 @@ img {
 
 .logo {
   position: relative;
-  padding: 5vw;
+  padding: 7vw;
   top: 3vw;
 }
 
@@ -73,6 +73,11 @@ img {
   color: white;
 }
 
+.univers_link {
+  position: relative;
+  top: -1vw;
+  padding-bottom: 2vw;
+}
 .link_box {
   background-color: lightblue;
   color: darkred;
@@ -94,7 +99,7 @@ img {
   margin: 0 auto;
   cursor: pointer;
   text-align: center;
-  padding: 1.5vw;
+  padding: 2vw;
   max-width: 410px;
   grid-area: 1/1/-1/-1;
   z-index: 1;
